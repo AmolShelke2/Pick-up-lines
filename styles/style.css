@@ -48,9 +48,9 @@ body {
 
 .outer p {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
     font-weight: 300;
-    color: darkblue;
+    color: #000;
     letter-spacing: .9px;
 }
 
@@ -63,4 +63,24 @@ body {
     border-radius: 7px;
     cursor: pointer;
 }
+
+.btn:hover {
+    background-color: azure;
+}
+
+
 /* Outer styles done */
+
+/* Inner styles */
+.inner {
+    max-width: 900px;
+}
+
+.inner p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    display: none;
+}
