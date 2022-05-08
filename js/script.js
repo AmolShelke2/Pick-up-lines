@@ -1,4 +1,4 @@
-const pick_ups =         [
+const pick_ups = [
   {
     "id": 10030,
     "body": "Are you a parking ticket? ‘Cause you’ve got fine written all over you."
@@ -224,3 +224,6 @@ const pick_ups =         [
     "body": "Did it hurt? When you fell from heaven?"
   }
 ]
+
+const btn = document.querySelector('.btn')
+const lines = document.querySelector('.lines')

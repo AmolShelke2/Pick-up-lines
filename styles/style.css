@@ -82,5 +82,5 @@ body {
     line-height: 2rem;
     font-style: italic;
     font-weight: bold;
-    display: none;
+    /* display: none; */
 }
