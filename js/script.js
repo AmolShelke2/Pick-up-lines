@@ -242,3 +242,6 @@ function addLinesToTheDOM() {
     lines.textContent = lineArr[randomLine]
   })
 }
+
+// Function invoke
+addLinesToTheDOM()
