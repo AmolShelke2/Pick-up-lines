@@ -238,6 +238,7 @@ function addLinesToTheDOM() {
 
   btn.addEventListener('click', function (e) {
     e.preventDefault()
+    lines.style.display = 'block'
     const randomLine = Math.floor(Math.random() * lineArr.length - 1)
     lines.textContent = lineArr[randomLine]
   })
