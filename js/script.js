@@ -227,3 +227,5 @@ const pick_ups = [
 
 const btn = document.querySelector('.btn')
 const lines = document.querySelector('.lines')
+ 
+// adding the Lines to the DOM
