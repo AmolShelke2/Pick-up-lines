@@ -230,7 +230,15 @@ const lines = document.querySelector('.lines')
  
 // adding the Lines to the DOM
 
-btn.addEventListener('click', function () {
+function addLinesToTheDOM() {
+  const lineArr = []
+  pick_ups.forEach(pick_up => {
+    lineArr.push(pick_up.body)
+  })
 
-})
-
+  btn.addEventListener('click', function (e) {
+    e.preventDefault()
+    const randomLine = Math.floor(Math.random() * lineArr.length - 1)
+    lines.textContent = lineArr[randomLine]
+  })
+}
