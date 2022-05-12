@@ -3,6 +3,8 @@
 A basic frontEnd project created with HTML CSS and JavaScript.
 Want to impress your crush and make her fall in love with you just use this project to generates random pick-up lines and impress her by saying her this lines.
 
+# Owner 
+[Amol Shelke❤️](https://github.com/AmolShelke2)
 
 ## Tech Stack
 
